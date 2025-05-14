@@ -1,20 +1,25 @@
 mysql -uroot -ptest
+
 mysql> use test
+
 mysql> select * from customers ;
+```java
 +----+------------+-----------+
 | id | first_name | last_name |
 +----+------------+-----------+
 |  1 | shirish    | patil     |
 |  2 | marco      | behler    |
 +----+------------+-----------+
-
+```
 
 # psql -U test -d test
 psql (17.5 (Debian 17.5-1.pgdg120+1))
 Type "help" for help.
 
 test=# \dt
+
 List of relations
+````java
 Schema |   Name    | Type  | Owner
 --------+-----------+-------+-------
 public | customers | table | test
@@ -26,5 +31,4 @@ id | first_name | last_name
 1 | shirish    | patil
 2 | marco      | behler
 (2 rows)
-
-test=#
+````
