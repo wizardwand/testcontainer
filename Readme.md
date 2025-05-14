@@ -12,8 +12,8 @@ mysql> select * from customers ;
 +----+------------+-----------+
 ```
 
-# psql -U test -d test
-psql (17.5 (Debian 17.5-1.pgdg120+1))
+ psql -U test -d test
+
 Type "help" for help.
 
 test=# \dt
